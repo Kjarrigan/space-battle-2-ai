@@ -9,3 +9,6 @@ ruby holgers_ki/rts.rb &
 cd space-battle-2/server
 ruby src/app.rb
 ```
+
+# Tip
+   * Change server/src/game.rb STARTING_WORKERS => 1 to not get flooded with messages from the server!
