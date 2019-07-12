@@ -2,9 +2,9 @@
 
 ```bash
 git clone https://github.com/atomicobject/space-battle-2.git
-git clone ssh://git@git.hetzner.company:222/holger.arndt/space-battle-2.git holgers_ki
+git clone https://github.com/Kjarrigan/space-battle-2-ai.git
 
-ruby holgers_ki/rts.rb &
+ruby space-battle-2-ai/game.rb &
 
 cd space-battle-2/server
 ruby src/app.rb
